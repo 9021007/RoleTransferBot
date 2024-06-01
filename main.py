@@ -82,7 +82,7 @@ class MyView(discord.ui.View):
 async def display(ctx):
     # If the user has the manage_guild permission, send the embed with the button
     if ctx.author.guild_permissions.manage_guild:
-        embed = discord.Embed(title="Transfer your roles!", description="Press the button below to transfer your roles from the old server to the new server.")
+        embed = discord.Embed(title="Transfer your roles!", description="Press the button below to transfer your roles from the old servers to the new server.")
         await ctx.send(embed=embed, view=MyView())
 
 # Run the bot
