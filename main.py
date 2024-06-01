@@ -10,7 +10,7 @@ intents.members = True
 bot = commands.Bot(command_prefix="$", intents=intents)
 
 # CHANGE TOKEN
-token = "MTI0NjI0MzQ2MjU1NTM2OTUwMw.GXYsQF.PBVYx4CrSKt1OGy09Rf2d7wufTTfuzUt4usTVk"
+token = "YOUR TOKEN HERE"
 
 # CHANGE ROLE MAPPING
 # old_server_id: The ID of the server where the old role is located
